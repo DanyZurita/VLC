@@ -176,7 +176,7 @@ Y añadimos la referencia al final.
     ```
 ```
 
-*Resultado
+* Resultado
 
 ```
     ```javascript
