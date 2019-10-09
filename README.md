@@ -129,3 +129,71 @@ El texto referenciado se añade al final del documento para que se revisen al fi
 [link tal cual]: http://www.reddit.com
 
 **IMAGENES**
+
+* Ejemplo
+```
+Para añadir imágenes también se puede hacer de dos maneras:
+
+En una sola línea: ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png "Texto al hacer hover sobre la imágen")
+
+O utilizando referencias: ![alt text] [Markdown]
+
+Y añadimos la referencia al final.
+[Markdown]: https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png "Texto al hacer hover sobre la imágen referenciada"
+```
+* Resultado
+Para añadir imágenes también se puede hacer de dos maneras:
+
+En una sola línea: ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png "Texto al hacer hover sobre la imágen")
+
+O utilizando referencias: ![alt text][Markdown]
+
+Y añadimos la referencia al final.
+
+[Markdown]: https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png "Texto al hacer hover sobre la imágen referenciada"
+
+**CÓDIGO**
+
+* Ejemplo
+
+```
+    ```javascript
+    var s = "JavaScript syntax highlighting";
+    alert(s);
+    ```
+```
+
+
+```
+    ```python
+    s = "Python syntax highlighting"
+    print s
+    ```
+```
+```
+    ```
+    Si no se indica lenguaje no se resalta nada.
+    ```
+```
+
+*Resultado
+
+```
+    ```javascript
+    var s = "JavaScript syntax highlighting";
+    alert(s);
+    ```
+```
+
+
+```
+    ```python
+    s = "Python syntax highlighting"
+    print s
+    ```
+```
+```
+    ```
+    Si no se indica lenguaje no se resalta nada.
+    ```
+```
