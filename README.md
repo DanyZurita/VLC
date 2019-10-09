@@ -1,7 +1,7 @@
 # Comandos de Code 
 ## Tarea 1.1
 
-* **Headers**
+**Headers**
 
 * Ejemplo
 ```
@@ -16,17 +16,116 @@
 ### Título 3
 #### Títilo 4
 
-* **Emfasis**
+**Emfasis**
 
 * Ejemplo
 ```
 *Para crear texto itálico*
-## Título 2
-### Título 3
-#### Títilo 4
+_Para crear texto itálico_
+
 ```
 * Resultado
+
 *Para crear texto itálico*
-## Título 2
-### Título 3
-#### Títilo 4
+
+_Para crear texto itálico_
+
+**NEGRITA**
+
+* Ejemplo
+```
+__Para crear texto en negrita__
+**Para crear texto en negrita**
+```
+* Resultado
+
+__Para crear texto en negrita__
+
+**Para crear texto en negrita**
+
+**TACHADO**
+
+* Ejemplo
+```
+~~Para crear texto en tachado~~
+```
+* Resultado
+
+~~Para crear texto en tachado~~
+
+**LISTAS**
+
+* Ejemplo
+```
+1. Lista numerada
+2. Lista numerada
+3. Lista numerada
+    * Sublista no numerada
+        * Sub-sublista no numerada
+* Las listas no ordenadas se pueden crear con asteriscos
+- Con el simbolo de -
++ o con el símbolo de +
+```
+* Resultado
+
+1. Lista numerada
+2. Lista numerada
+3. Lista numerada
+    * Sublista no numerada
+        * Sub-sublista no numerada
+* Las listas no ordenadas se pueden crear con asteriscos
+- Con el simbolo de -
++ o con el símbolo de +
+
+**LINKS**
+
+* Ejemplo
+```
+
+[Link de una página web](https://www.google.com)
+
+[Link de una página web con mensaje](https://www.google.com "Google's Homepage")
+
+[Utilizar textos de referencias para hypervincular][Texto de referencia]
+
+[Referencia Relativa a un repositorio](../blob/master/LICENSE)
+
+[También se pueden referenciar números][1]
+
+O dejarlo el texto y añadir el  [link tal cual].
+
+URLs and URLs con braquets se auto linkean solas. 
+http://www.ejemplo.com or <http://www.ejemplo.com> and sometimes 
+ejemplo.com (pero no en Github).
+
+El texto referenciado se añade al final del documento para que se revisen al final.
+
+[texto de referencia]: https://www.mozilla.org
+[1]: http://slashdot.org
+[link tal cual]: http://www.reddit.com
+```
+* Resultado
+
+[Link de una página web](https://www.google.com)
+
+[Link de una página web con mensaje](https://www.google.com "Google's Homepage")
+
+[Utilizar textos de referencias para hypervincular][Texto de referencia]
+
+[Referencia Relativa a un repositorio](../blob/master/LICENSE)
+
+[También se pueden referenciar números][1]
+
+O dejarlo el texto y añadir el  [link tal cual].
+
+URLs and URLs con braquets se auto linkean solas. 
+http://www.ejemplo.com or <http://www.ejemplo.com> and sometimes 
+ejemplo.com (pero no en Github).
+
+El texto referenciado se añade al final del documento para que se revisen al final.
+
+[texto de referencia]: https://www.mozilla.org
+[1]: http://slashdot.org
+[link tal cual]: http://www.reddit.com
+
+**IMAGENES**
