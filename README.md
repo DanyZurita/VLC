@@ -196,3 +196,78 @@ print s
 ```
 Si no se indica lenguaje no se resalta nada.
 ```
+
+**TABLAS**
+* Ejemplo
+
+```
+El símbolo | se utiliza para crear las tablas.
+
+| TABLAS 1       | TABLAS 2      | TABLAS 3  |    TABLAS 4    |
+| :------------- |:-------------:| -----:| -------------- |
+| 1A Contenido Derecha    | 1B Contenido Centrado | 1C Contenido Izquierda  |    1D Contenido por defecto
+| 2A      | 2B      |   2C |2D
+| 3A | 3B     |   3C | 3D
+
+Tiene que haber almenos 3 dashes separando cada encabezado.
+Las | de fuera pueden ser omitidas.
+Dentro de las celdas se pueden seguir utilizando los estilos de Markdown
+
+*Ejemplo* | **Ejemplo** | `Ejemplo`
+--- | --- | ---
+*Ejemplo* | `Ejemplo` | **Ejemplo**
+`Ejemplo` | **Ejemplo** | *Ejemplo*
+~~1~~ | ~~2~~ | ~~3~~
+```
+
+* Resultado
+
+El símbolo | se utiliza para crear las tablas.
+
+| TABLAS 1       | TABLAS 2      | TABLAS 3  |    TABLAS 4    |
+| :------------- |:-------------:| -----:| -------------- |
+| 1A Contenido Derecha    | 1B Contenido Centrado | 1C Contenido Izquierda  |    1D Contenido por defecto
+| 2A      | 2B      |   2C |2D
+| 3A | 3B     |   3C | 3D
+
+Tiene que haber almenos 3 dashes separando cada encabezado.
+Las | de fuera pueden ser omitidas.
+Dentro de las celdas se pueden seguir utilizando los estilos de Markdown
+
+*Ejemplo* | **Ejemplo** | `Ejemplo`
+--- | --- | ---
+*Ejemplo* | `Ejemplo` | **Ejemplo**
+`Ejemplo` | **Ejemplo** | *Ejemplo*
+~~1~~ | ~~2~~ | ~~3~~
+
+**ANOTACIONES**
+
+* Ejemplo
+
+```
+>Primera frase de la anotación.
+>Segunda frase de la misma anotación.
+
+Ruptuta de la anotación.
+
+>Nueva anotación.
+```
+
+* Resultado
+
+>Primera frase de la anotación.
+>Segunda frase de la misma anotación.
+
+Ruptuta de la anotación.
+
+>Nueva anotación.
+
+
+Para crear este documento con Markdown he utilizado Visual Studio Code y Github para tener un control de versiones del mismo.
+
+* **Comandos Utilizados**:
+
+    * **git init**: *Para iniciar git en Visual Studio y loggear la cuenta y su correspondiente repositorio.*
+    * **git add .**: *Para añadir todos los cambios.*
+    * **git commit**: *Para enviar el repositorio con el mensaje de los cambios realizados.*
+    * **git push**: *Para enviar definitivamente el documento como versión final.*
