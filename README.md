@@ -178,22 +178,21 @@ Y añadimos la referencia al final.
 
 * Resultado
 
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
 ```
-    ```javascript
-    var s = "JavaScript syntax highlighting";
-    alert(s);
-    ```
+
+
+
+
+```python
+s = "Python syntax highlighting"
+print s
 ```
 
 
 ```
-    ```python
-    s = "Python syntax highlighting"
-    print s
-    ```
-```
-```
-    ```
-    Si no se indica lenguaje no se resalta nada.
-    ```
+Si no se indica lenguaje no se resalta nada.
 ```
