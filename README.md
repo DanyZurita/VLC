@@ -270,4 +270,4 @@ Para crear este documento con Markdown he utilizado Visual Studio Code y Github 
     * **git init**: *Para iniciar git en Visual Studio y loggear la cuenta y su correspondiente repositorio.*
     * **git add .**: *Para añadir todos los cambios.*
     * **git commit**: *Para enviar el repositorio con el mensaje de los cambios realizados.*
-    * **git push**: *Para enviar definitivamente el documento como versión final.*
+    * **git push**: *Para enviar definitivamente el documento como versión final.* 
