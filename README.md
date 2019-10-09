@@ -158,7 +158,7 @@ Y añadimos la referencia al final.
 
 ```
     ```javascript
-    var s = "JavaScript syntax highlighting";
+    var s = "Resalto de lenguaje JavaScript";
     alert(s);
     ```
 ```
@@ -166,7 +166,7 @@ Y añadimos la referencia al final.
 
 ```
     ```python
-    s = "Python syntax highlighting"
+    s = "Resalto de lenguaje Python"
     print s
     ```
 ```
@@ -180,7 +180,7 @@ Y añadimos la referencia al final.
 
 
 ```javascript
-var s = "JavaScript syntax highlighting";
+var s = "Resalto de lenguaje JavaScript";
 alert(s);
 ```
 
@@ -188,7 +188,7 @@ alert(s);
 
 
 ```python
-s = "Python syntax highlighting"
+s = "Resalto de lenguaje Python"
 print s
 ```
 
